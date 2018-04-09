@@ -5,6 +5,7 @@ cd /d "%~dp0"
 cls
 setlocal EnableDelayedExpansion
 rem %~fs0是执行文件 %~dp0是文件夹
+Reg delete HKCR\annie
 Reg add HKCR\annie /ve /t REG_SZ /d "URL:annie Protocol Handler" /f
 Reg add HKCR\annie /v "URL Protocol" /t REG_SZ /f
 Reg add HKCR\annie\shell\open\command /ve  /t REG_SZ /d "%~dp0annie-wsl-tools.bat \"%%1\"" /f
