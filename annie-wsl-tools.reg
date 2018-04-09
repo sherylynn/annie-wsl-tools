@@ -1,11 +1,11 @@
 Windows Registry Editor Version 5.00
-[HKEY_CLASSES_ROOT\youget]
-@="URL:youget Protocol Handler"
+[HKEY_CLASSES_ROOT\annie]
+@="URL:annie Protocol Handler"
 "URL Protocol"=""
 
-[HKEY_CLASSES_ROOT\youget\shell]
+[HKEY_CLASSES_ROOT\annie\shell]
 
-[HKEY_CLASSES_ROOT\youget\shell\open]
+[HKEY_CLASSES_ROOT\annie\shell\open]
 
-[HKEY_CLASSES_ROOT\youget\shell\open\command]
-@="C:\\Users\\lynn\\you-get-tools\\you-get-tools.bat \"%1\""
+[HKEY_CLASSES_ROOT\annie\shell\open\command]
+@="C:\\Users\\lynn\\annie-wsl-tools\\annie-wsl-tools.bat \"%1\""
